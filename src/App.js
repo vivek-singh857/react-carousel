@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import Catalog from "./containers/catalog/catalog";
 
 
 const app = () => {
-  return <h1>Hello</h1>
+  return <Catalog />
 }
 
 export default app;

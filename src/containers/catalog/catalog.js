@@ -2,6 +2,7 @@ import React , {Component} from "react";
 import catalogData from "../../components/catalogData/catalogData";
 import LeftArrow from "../../components/leftArrow/leftArrow";
 import RightArrow from "../../components/rightArrow/rightArrow";
+import CarouselDisplay from "../carouselDisplay/carouselDisplay";
 
 class Catalog extends Component{
     state = {
@@ -37,7 +38,7 @@ class Catalog extends Component{
                     <LeftArrow leftSlide = {this.leftArrow} />
                 </div>
                 <div>
-                    
+                    <CarouselDisplay activeIndex = {this.state.activeIndex} />
                 </div>
                 <div>
                     <RightArrow rightSlide = {this.rightArrow} />

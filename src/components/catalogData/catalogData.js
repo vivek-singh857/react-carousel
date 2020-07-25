@@ -1,19 +1,30 @@
+import ramos from "../../assests/Images/sergio.jpg";
+import ronaldo from "../../assests/Images/cristiano.jpg";
+import zlatan from "../../assests/Images/zlatan.jpg";
+import paolo from "../../assests/Images/maldini.jpg";
+
 const catalogData = [
     {
         id: 1,
-        text: "First Image",
-        imgURL: ""
+        text: "Sergio Ramos",
+        imgURL: ramos
     },
     {
         id: 2,
-        text: "Second Image",
-        imgURL: ""
+        text: "Cristiano Ronaldo",
+        imgURL: ronaldo
     },
     {
         id: 3,
-        text: "Third Image",
-        imgURL: ""
+        text: "Zlatan Ibrahimović",
+        imgURL: zlatan
+    },
+    {
+        id: 4,
+        text: "Paolo Maldini",
+        imgURL: paolo
     }
 ]
+
 
 export default catalogData;
